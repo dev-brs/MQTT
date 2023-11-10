@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enviar Mensagem MQTT</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="cabecalho">
+    {% if message_sent %}
+        <p>Mensagem MQTT enviada com sucesso!</p>
+    {% endif %}
+    <form method="post" action="/">
+        <label for="nickname" class="label-nickname">Apelido:</label><br>
+        <input type="text" id="nickname" name="nickname"><br><br>
+        <label for="topic" class="label-topic">Tópico:</label><br>
+        <input type="text" id="topic" name="topic"><br><br>
+        <label for="message" class="label-message">Mensagem:</label><br>
+        <input type="text" id="message" name="message"><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

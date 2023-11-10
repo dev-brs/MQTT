@@ -1,0 +1,71 @@
+/* static/style.css */
+
+body {
+    background-color: #1c1c1c;
+    color: darkmagenta;
+    font-family: monospace;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid darkmagenta;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: transparent;
+}
+
+input[type="text"] {
+    padding: 12px;
+    height: 48px;
+    width: 340px;
+    background-color: transparent;
+    color: whitesmoke;
+    border-color: whitesmoke;
+    border-radius: 12px;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+input[type="submit"] {
+    height: 75px;
+    border-radius: 12px;
+    font-size: 24px;
+    padding: 12px;
+    background-color: darkmagenta;
+    border-color: rgb(93, 1, 93);
+    font-weight: bold;
+    font-family: monospace;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+p {
+    font-size: 32px;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+
+/* static/style.css */
+
+/* ...outros estilos... */
+
+.label-topic {
+    font-size: 36px;
+    color: whitesmoke;
+}
+.label-nickname {
+    font-size: 36px;
+    color: whitesmoke;
+}
+.label-message {
+    font-size: 36px;
+    color: whitesmoke;
+}
